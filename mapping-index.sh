@@ -1,3 +1,4 @@
+#!/bin/bash
 $ curl -X PUT "localhost:9200/books?pretty" -H 'Content-Type: application/json' -d'
 { 
   "properties": {
